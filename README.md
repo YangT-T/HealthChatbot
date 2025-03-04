@@ -2,6 +2,9 @@
 ## Introduction
 ### APP
 This directory is a web application developed by flask.
+
+The App uses Qwen LLM so you should get and set your API_KEY in ``.env`` file
+
 ### Scripts
 Scripts used in data collection and cleansing
 
