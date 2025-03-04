@@ -3,7 +3,11 @@
 ### APP
 This directory is a web application developed by flask.
 
-The App uses Qwen LLM so you should get and set your API_KEY in ``.env`` file
+Partly based on LangChain, [reference](https://www.langchain.asia/use_cases/chatbots/quickstart) here.
+
+Use ``all-MiniLM-L6-v2`` embeddings ans FAISS database
+
+Uses Qwen LLM so you should get and set your API_KEY in ``.env`` file
 
 ### Scripts
 Scripts used in data collection and cleansing
