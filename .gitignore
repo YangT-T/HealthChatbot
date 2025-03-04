@@ -1,5 +1,4 @@
-./Data
 requirements.txt
-# .env
+.env
 **/__pycache__
 /KnowledgeBase/*
