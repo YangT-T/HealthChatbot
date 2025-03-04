@@ -1,4 +1,5 @@
 requirements.txt
 .env
+.gitattributes
 **/__pycache__
 /KnowledgeBase/*
