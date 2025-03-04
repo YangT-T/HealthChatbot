@@ -1,5 +1,5 @@
 ./Data
-./requirements.txt
-./.env
+requirements.txt
+# .env
 **/__pycache__
-./KnowledgeBase/*
+/KnowledgeBase/*
