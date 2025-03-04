@@ -1,1 +1,19 @@
-# Health Chat Bot
+# Health Chatbot
+## Introduction
+### APP
+This directory is a web application developed by flask.
+### Scripts
+Scripts used in data collection and cleansing
+
+### Data
+This includes a simple dataset example
+
+## Setup
+
+0 Try to install all required libs
+
+1 Enter ``HealthChatBot/`` directory
+
+2 Run ``python ./Scripts/updateDatabaseExample.py`` to get the embeddings of the DialMed dataset and store them into vector database
+
+3 Run python ``./App/app.py``
