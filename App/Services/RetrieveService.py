@@ -8,7 +8,7 @@ def retrieveInfo(input, task):
     
     embeddings=HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
     
-    vector_db=FAISS.load_local("./KnowledgeBase/DailMed",embeddings,allow_dangerous_deserialization=True)
+    vector_db=FAISS.load_local("../KnowledgeBase/DailMed",embeddings,allow_dangerous_deserialization=True)
     
     query_text = "皮炎"
 
