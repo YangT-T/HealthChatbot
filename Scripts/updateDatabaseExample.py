@@ -15,12 +15,12 @@ def create_faiss_index(texts):
     
     return vector_db
 
-file_path =  "../ExampleData/DialMed.txt"  
+file_path =  "./Data/ExampleData/DialMed.txt"  
 texts = load_texts(file_path)
 
-vector_db = create_faiss_index(texts[:10])
+vector_db = create_faiss_index(texts)
 
-vector_db.save_local("../KnowledgeBase/DailMed")
+vector_db.save_local("./KnowledgeBase/DailMed")
 
 
 

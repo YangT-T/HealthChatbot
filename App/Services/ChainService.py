@@ -10,6 +10,7 @@ from langchain_community.llms.tongyi import Tongyi
 
 
 def tongyiChat(input,sideInfo,task):
+    prompt=input+str(sideInfo)
     llm=Tongyi(api_key=DASHSCOPE_API_KEY)
-    result=llm.invoke(input)
+    result=llm.invoke(prompt)
     return result
