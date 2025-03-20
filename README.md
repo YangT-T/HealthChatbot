@@ -1,5 +1,8 @@
 # Health Chatbot
 ## Introduction
+### Developing Environment
+python: 3.10.6
+
 ### APP
 This directory is a web application developed by flask.
 

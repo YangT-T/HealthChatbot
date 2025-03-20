@@ -1,6 +1,7 @@
 from Services.ClassificationService import classifyEnquiry
 from Services.RetrieveService import retrieveInfo
 from Services.ChainService import tongyiChat
+from Services.RecommendService import recommend
 
 
 def handleEnquiry(input, history):
@@ -14,6 +15,6 @@ def handleEnquiry(input, history):
     result=tongyiChat(input=input,sideInfo=sideInfo,task=task)
     
     # Futher analyze
-    recommendation= ["die","live"]
+    recommendation= recommend(input)
     
     return result,recommendation
